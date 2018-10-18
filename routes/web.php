@@ -19,5 +19,6 @@ Route::get('/index', 'homeController@index')->name('index');
 Route::get('/sobre', 'homeController@sobre')->name('sobre');
 Route::get('/contato', 'homeController@contato')->name('contato');
 Route::get('/galeria', 'homeController@galeria')->name('galeria');
-Route::get('/registrar', 'homeController@registrar')->name('registrar');
-Route::get('/entrar', 'homeController@entrar')->name('entrar');
+Route::get('/registrar', 'UsuarioController@registrar')->name('registrar');
+Route::get('/login', 'UsuarioController@login')->name('login');
+Route::post('logar', 'LoginController@logar')->name('logar');

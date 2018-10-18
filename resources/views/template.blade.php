@@ -36,7 +36,7 @@
         </nav>
         <aside class="autenticacao">
             <form>
-                <a href="{{route('entrar')}}" class="botao link">Entrar</a>
+                <a href="{{route('login')}}" class="botao link">Entrar</a>
                 <a href="{{route('registrar')}}" class="botao destaque link">Registrar-se</a>
             </form>
         </aside>

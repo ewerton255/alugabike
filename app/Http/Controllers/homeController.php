@@ -22,11 +22,4 @@ class homeController extends Controller
         return view('galeria');
     }
 
-    public function registrar(){
-        return view('registrar');
-    }
-
-    public function entrar(){
-        return view('entrar');
-    }
 }
