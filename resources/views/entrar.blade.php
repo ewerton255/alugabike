@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('conteudo')
-<form>
+<form method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">Email:</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Informe seu e-mail">
